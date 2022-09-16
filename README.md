@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Guia de Academia 2.0
 
 **Conteúdo da Disciplina**: Final<br>
 
