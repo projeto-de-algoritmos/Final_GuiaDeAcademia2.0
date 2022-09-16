@@ -1,45 +1,31 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
 # NomedoProjeto
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Final<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 180149598  |  Victor Hugo SIqueira Costa |
+| 180029240  |  Wesley Pedrosa dos Santos |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+* O **Guia de Academia 2.0** é uma versão evoluida do aplciativo do trabalho de *Grafos 1*. Esta versão contém features que envolvem *algoritmos ambiciosos (Greed)* e *dividir e conquistar (DC)* além de correção de bugs.
+
+Visando ajudar a obter um melhor rendimento durante os treinos na academia, o **Guia de Academia** lhe indicará a melhor sequência de exercícios, baseado nos exercícios que você possuí interesse, seguindo o caminho mais eficiente através de um critério prático.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="imagens/menu.png" alt="Menu início"/><br>
+<img src="imagens/menu1.png" alt="Menu fim"/><br>
+<img src="imagens/sequencia_de_treino.png" alt="Sequência de Treino"/><br>
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript, HTML, CSS<br>
+**Framework**: Svelte<br>
+* 1°: Mover para a pasta do diretório do projeto: *cd Final_GuiaDeAcademia2.0/Guia-de-Academia/*
+* 2°: Rodar *npm i* e em seguidda *npm run dev* 
+* 3°: No navegador abrir a porta local 3000: *http://localhost:3000/*<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+* Escolha o exercícios que tiver interesse
+* Clique em *Mostrar Sequência de Treino* para ver o resultado
+* Caso deseje testar outra sequência clique em *Voltar para o Menu*
