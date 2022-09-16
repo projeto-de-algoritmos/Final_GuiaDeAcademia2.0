@@ -1,17 +1,12 @@
 <script>
+    import { mostrar_sequencia } from '../store'
+    import { exercicios_selecionados } from '../store'
+    import { greed } from '../greed';
+    import { exercicios } from '../store';
 
-    import { mostrar_sequencia } from '../store';
-    import { exercicios_selecionados } from '../store';
-    import { sequencia_resultado } from '../store';
-    import grafo_exercicios from '../grafos'
-
-    // let temp = grafo_exercicios.bfs(
-    //     exercicios_selecionados.subscribe[1],
-    //     exercicios_selecionados.subscribe[0]
-    //     )
-
-    // sequencia_resultado.set(temp)
-
+    let indices = greed()
+    let exercicios_resposta = []
+    for(let i = 0; i < indices.length; i++) exercicios_resposta.push(exercicios[indices[i]])
 </script>
 
 <main class="container">
@@ -19,8 +14,7 @@
         Voltar para o Menu
     </button>
     <div>
-        <!-- {#each $sequencia_resultado as exer, i} -->
-        {#each $exercicios_selecionados as exer, i}
+        {#each exercicios_resposta as exer, i}
             <img src={exer.icon} alt={exer.name} width=10%/>
             <item>
                 {i+1}° {exer.name}
